@@ -1,0 +1,55 @@
+*{
+    margin: 0px;
+    padding: 0px;   
+}
+
+header{
+    border: 3px solid aqua;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+section{
+    border: 3px solid rgb(255, 153, 0);
+    display: flex;
+    flex-wrap: wrap;
+}
+section article{
+    border: 3px solid rgb(43, 255, 0);
+    height: 150px;
+    width: 341px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+article{
+    border: 3px solid yellow;
+    height: 150px;
+    
+    justify-content: center;
+    align-items: center;
+
+}
+    
+aside{
+    border: 3px solid rgb(255, 38, 0);
+    height: 150px;
+    width: 141px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+
+}
+footer{
+    border: 3px solid rgb(132, 0, 255);
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    
+}   

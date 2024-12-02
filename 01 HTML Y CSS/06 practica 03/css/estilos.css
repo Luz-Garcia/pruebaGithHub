@@ -1,0 +1,105 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+section{
+ 
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+ 
+ background-color: #031338;
+}
+ul{
+    margin: 20px;
+}
+a{
+    margin: 10px;
+    color: aliceblue;
+    
+    text-decoration: none;
+}
+a i{
+    margin-right: 10px;
+   
+   
+}
+.uluno{
+    margin-left: 100px;
+    
+}
+.uldos{
+    margin-right: 100px;
+    
+}
+
+nav {
+    list-style: none; 
+   display: flex;
+   align-items: center;
+   
+}
+.navdos{
+      
+   color: black;
+   margin-left:40px;
+}
+
+nav ul{
+
+   font-weight: bold; 
+
+}
+
+.buttonuno{
+    margin-right:5px;
+    background-color:rgb(255, 93, 17);
+    padding: 9px 15px;
+    border: 2px solid rgb(255, 93, 17);
+    font-weight: bold; 
+    cursor: pointer;
+   
+}
+div{
+    
+    background-image: url(../img/LOGO2.png);
+    background-position: center;
+    background-size: cover;
+    
+} 
+.titulo{
+    color: rgb(255, 93, 17);
+    font-weight: normal; 
+}
+#td{
+    padding-top: 100px;
+    padding-bottom: 10px;
+    font-weight: normal;
+    font-size: 60px;  
+    padding-left: 80px;
+}
+.titulodos{
+    font-weight: bold; 
+}
+p{
+    padding-left: 90px;
+    padding-bottom: 40px;
+}
+#buttondos{
+   
+    margin-left: 90px;
+    margin-bottom: 199px;
+    padding: 9px 15px;
+    letter-spacing: 1px;
+    cursor: pointer; 
+    background-color: rgba(255, 255, 255, 0.5); 
+}
+
+
+#buttondos:hover{
+    background-color: rgb(255, 93, 17) ;
+}
+.buttonuno:hover{
+    background-color: rgb(223, 97, 39) ;
+}
+

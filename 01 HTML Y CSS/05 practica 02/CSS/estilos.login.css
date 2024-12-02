@@ -1,0 +1,162 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+section{
+    height: 100vh;
+    background-color: rgb(216, 178, 178);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+form{
+    background-color: aliceblue;
+    padding: 20px;
+    border:  1px solid black;
+    border-radius: 5px;
+    text-align: center;
+    width: 400px;
+    box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.8);
+   
+}
+h2{
+    text-transform: uppercase;/*todo lo hace en mayuscula*/
+    margin-bottom: 30px;
+    font-family: "Bodoni MT"; 
+    font-weight: bold; 
+    text-shadow: 2px 2px 3px black; 
+    font-size: 40px;
+
+}
+.group{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+    align-items: flex-start;
+    width: 100%;
+    position: relative;
+    
+}
+label{
+    margin-bottom: 5px;
+    font-style: oblique;
+    font-family: "Bodoni MT"; 
+    font-weight: bold; 
+    font-size: 17px;
+   
+}
+input{
+    padding: 10px 15px;
+    width: 100%;
+    border-radius: 3px;
+    outline: 0;
+    border: 1px solid #ccc; 
+}
+i{
+    position: absolute;
+    bottom: 10px;
+    right: 9px;
+    opacity: 0;
+    visibility: hidden;
+    transition: all 3s;
+    cursor: pointer;
+}
+i.show{
+    opacity: 1;
+    visibility: visible;
+    transition: all .3s;
+}
+button{
+    border: none;
+    background-color: rgb(202, 160, 241);
+    color: white;
+    text-transform: uppercase;/*minuscula*/
+    font-size: 20px;
+    padding: 10px 25px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-style: oblique;
+    font-family: "Bodoni MT"; 
+    font-weight: bold; 
+    font-size: 17px;
+    text-shadow: 2px 2px 3px black; 
+    box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.8);/* Ancho del borde y color */
+    
+
+}
+button:hover {
+    opacity: 0.8; /* Opacidad al pasar el ratón */
+}
+.myinput.orange-border {
+    border-color: orange;
+    
+  }
+.myinput.green-border{
+    border-color:green;
+}
+
+@media only screen and (max-width: 1000px){
+    section{
+        width:100%;
+        
+    }
+
+}
+
+@media only screen and (max-width: 750px){
+    section{
+        width:100%;
+        background-image: url(../img/WhatsApp\ Image\ 2024-11-25\ at\ 5.16.29\ PM.jpeg);
+        background-size: cover; 
+    }
+        h2{
+           
+            color:  rgb(255, 255, 255);
+            font-family: 'Edu Australia VIC WA NT Hand Arrows' , 'Courier New', Courier, monospace;
+        }
+        label{
+            color:  rgb(255, 255, 255);
+            font-weight: normal; /*quita negritas*/
+            font-family: 'Edu Australia VIC WA NT Hand Arrows' , 'Courier New', Courier, monospace;
+            font-size: 15px;
+        }
+        button{
+            font-size: 15px;
+            box-shadow: 3px 3px 5px  rgb(0, 0, 0);/* Ancho del borde y color */
+            background-color: black;
+            color:white;
+            background-color: rgba(255, 255, 255, 0.5); /* Rojo con 50% de transparencia */
+            font-weight: normal; /*quita negritas*/
+            font-family: 'Edu Australia VIC WA NT Hand Arrows' , 'Courier New', Courier, monospace;
+            
+        }
+        form{
+            /*box-shadow: 3px 3px 5px  rgb(235, 234, 236);/* Ancho del borde y color */
+            background-color: transparent;
+             box-shadow: /*permite añadir sombras a cualquier elemento*/
+            inset 0px 0px 10px rgba(255, 255, 255, 0.5), /* Brillo interno */
+            0px 0px 15px rgba(0, 0, 0, 0.2); /* Sombra externa */
+            /* Otros estilos del elemento */
+            border-radius: 10px;
+        }
+}
+@media only screen and (max-width: 412px){
+    section{
+        width:100%;
+        background-image: url(../img/WhatsApp\ Image\ 2024-11-25\ at\ 5.16.29\ PM.jpeg);
+        background-size: cover; 
+    }
+    form{
+            width: 290px; /* Ancho del botón */
+            height: 350px; /* Alto del botón */
+    }
+    input{
+        height: 30px;
+    }
+   button{
+    height: 35px;
+   }
+    
+}

@@ -1,0 +1,231 @@
+*{
+    margin: 0px;
+    padding: 0px;
+
+}
+  
+nav div {
+  /*  border: 3px solid green;*/
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 15;
+    padding-bottom: 15px;
+   
+}
+nav div ul li{
+
+    list-style: none;
+    padding-right: 15px;
+
+}
+nav div ul{
+    display: flex;
+
+}
+nav div ul li a{
+    color: black;
+}
+
+
+header{
+    background-image: url(../img/portada.jpeg);
+    background-position: center;
+    background-size: cover;
+    border: 3px solid transparent; 
+}
+
+
+.contenedor {
+    /*border: 3px solid purple;*/
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.email{
+    /*border: 3px solid orange;*/
+    margin-right: 70px;
+    margin-bottom: 40px;
+    display: flex;
+    /* margin-right: 650px; */
+}
+#titulo{
+    
+    color:rgb(255, 104, 24);
+    /*border: solid fuchsia;*/
+    font-size: 60px;
+    /* margin-top: 150px;
+    margin-right: 750px; */
+    
+
+}
+p{
+    font-size: 12px;
+    font-style: italic;
+}
+.lorem15{
+    color: gray;
+    font-weight: bold;
+   /* border: solid yellow;*/
+    /* margin-right: 600px; */
+
+}
+.lorem3{
+    color: blue;
+    /* margin-right: 900px; */
+   /* border:solid green;*/
+    margin-bottom: 30px;
+}
+input{
+   /* border: 3px solid rgb(69, 194, 216);*/
+    border: none;
+    font-size: 18px;
+    outline: 0;
+    padding: 9px 6px;
+
+    
+}
+button{
+        /*border: 3px solid rgb(0, 0, 0);**/
+        color: aliceblue;
+        background-color: rgb(255, 153, 0);
+        font-size: 15px;
+        outline: 0;
+        padding: 12px 25px;
+        border: none;
+        font-weight: bold;
+}
+
+
+
+section div{
+   /* border: 3px solid rgb(235, 9, 235);*/
+    display: flex;
+    flex-wrap: wrap;
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 15px;
+}
+
+article{
+    padding: 10px 15px 10px 15px;
+    color: white;
+    width: 25%;
+    box-sizing: border-box;
+}
+
+.primero{
+    background-color: rgb(226, 131, 43);
+    
+}
+
+.segundo{
+    background-color: rgb(218, 77, 34);
+    
+}
+.tercero{
+    background-color: rgb(48, 44, 34);
+    
+}
+.cuarto{
+    background-color: rgba(63, 62, 62, 0.986);
+     
+    
+}
+
+#sub{
+    margin-top: 5px;
+    margin-bottom: 10px;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+#loremsub{
+    margin-bottom: 10px;
+    font-size: 14px;
+}
+
+
+.icono{
+    font-size: 40px;
+}
+
+@media only screen and (max-width: 1000px){
+    article{
+        width:50%;
+    }
+}
+
+@media only screen and (max-width: 750px){
+    article{
+        width:100%;
+    }
+        #titulo{
+            text-align: center; 
+        }
+        header div p{
+            text-align: center; 
+        }
+        header div div{
+            justify-content: center;
+        }
+}
+/*@media only screen and( max-width: 300px){
+    header{
+         width: 100%;
+         background-image: url(../img/logo.jpeg);
+        }
+        header div h1{   
+             line-height: 10px;
+             font-size: 10px; 
+        }
+        button{
+            height: 28px;  
+        }
+    
+    }*/
+@media only screen  and (max-width: 412px){
+    header{
+        width: 100%;
+        background-image: url(../img/recorte.jpg);
+        
+    }
+    #titulo{
+        font-size: 45px;
+        /*margin-top: 30px;*/
+        text-shadow: 0 0 5px rgb(0, 0, 0);
+        line-height: 50px;
+     
+    }
+    button{
+        height: 23px;
+        width:70px ;
+        text-align: center; 
+        font-size: 10px;
+       padding-top: 7px;
+        padding-left: 15px;
+        cursor: pointer;
+    }
+    input{
+        height: 05px;
+        text-align: center; 
+        font-size: 10px;
+        width:100px ;
+    }
+    header div p {
+        font-size: 10px;
+    
+        font-style: italic;
+    }
+    .email{
+        margin-left: 50px;
+        margin-top: 10px;
+    }
+    
+}
+    

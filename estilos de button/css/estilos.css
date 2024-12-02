@@ -1,0 +1,13 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+    background: #1a0321;
+    font-family: consolas;
+}
+.btn neon{
+    position: relative;
+    display: flex;
+}

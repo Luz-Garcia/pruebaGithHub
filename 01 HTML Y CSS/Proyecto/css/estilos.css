@@ -1,7 +1,6 @@
 *{
     margin: 0px;
     padding: 0px;
-
 }
 aside{
     background-color:#F4F4F4;
@@ -18,7 +17,6 @@ aside{
     margin-left: 300px;
     padding-top: 10px;
 }
-
 #usuario{
     margin-right: 5px;
     transform: scale(0.7); 

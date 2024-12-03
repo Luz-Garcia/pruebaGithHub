@@ -13,37 +13,33 @@ aside{
     padding-top: 10px;
     padding-bottom: 10px;
     text-align: center;
-
 }
 .inicio{
-    margin-right: 200px;
     margin-left: 300px;
     padding-top: 10px;
-    padding-bottom: 10px;
-    
 }
 
 #usuario{
     margin-right: 5px;
-    transform: scale(0.7); /*reduce el tamaño*/
+    transform: scale(0.7); 
 }
 .opciondinero{
     margin-right: 10px;
     margin-left: 10px;
-    border: none;/*elimina bordes*/
+    border: none;
     background-color: transparent;   
     cursor: pointer;
 }
 .usuario2{
-    text-decoration: none;/*elimina subrayado*/
+    text-decoration: none;
     cursor: pointer;
 }
 .idioma{
-    border: none;/*elimina bordes*/
+    border: none;
     background-color: transparent;   
     cursor: pointer;
 }
-
+/*segundo*/
 section{
     display: flex;
     align-items: center;
@@ -63,10 +59,7 @@ section{
     font-size: 18px;
     
 }
-nav{
-    display: flex; 
-    
-}
+
 .imglogo{
     margin-left: 300px;
     margin-right: 65px;
@@ -75,7 +68,7 @@ nav{
 }
 .menu{
     margin-left: 60px;
-    text-transform: uppercase; /*poner mayuscula*/ 
+    text-transform: uppercase; 
     font-size: 13px;
     font-weight: bold;
     cursor: pointer;
@@ -84,33 +77,33 @@ nav{
 }
 .home {
     margin-right: 15px;
-    border: none;/*elimina bordes*/
-    text-transform: uppercase; /*poner mayuscula*/ 
-    font-weight: bold;/*poner en negrita*/ 
+    border: none;
+    text-transform: uppercase; 
+    font-weight: bold;
     cursor: pointer;
     font-family: "Noto Sans JP", sans-serif;
 }
 .shop{
     margin-right: 15px;
-    border: none;/*elimina bordes*/
-    text-transform: uppercase;/*poner mayuscula*/
-    font-weight: bold;/*poner en negrita*/ 
+    border: none;
+    text-transform: uppercase;
+    font-weight: bold;
     cursor: pointer;
     font-family: "Noto Sans JP", sans-serif;
 }
 .blog{
     margin-right: 15px;
-    border: none;/*elimina bordes*/
-    text-transform: uppercase;/*poner mayuscula*/
-    font-weight: bold;/*poner en negrita*/ 
+    border: none;
+    text-transform: uppercase;
+    font-weight: bold;
     cursor: pointer;
     font-family: "Noto Sans JP", sans-serif;
 }
 .pages{
     margin-right: 15px;
-    border: none;/*elimina bordes*/
-    text-transform: uppercase;/*poner mayuscula*/
-    font-weight: bold;/*poner en negrita*/ 
+    border: none;
+    text-transform: uppercase;
+    font-weight: bold;
     cursor: pointer;
     font-family: "Noto Sans JP", sans-serif;
 }
@@ -151,17 +144,17 @@ article{
 }
 .categorias1{
     background-color: transparent;  
-    border: none;/*elimina bordes*/ 
+    border: none;
     font-size: 10px;
     color: white;
-    font-weight: bold;/*poner en negrita*/ 
+    font-weight: bold;
 }
 #iconoshop{
     padding-top: 7px;
 }
 .btnlupa{
     cursor: pointer;
-    border: 1px solid #ccc; /* Borde gris */
+    border: 1px solid #ccc; 
     width: 50px;
     background-color:transparent;
     border: none;
@@ -171,7 +164,7 @@ article{
 }
 .allcategorias{
     cursor: pointer;
-    border: 1px solid #ccc; /* Borde gris */
+    border: 1px solid #ccc; 
     width: 130px;
     text-align: center;
     padding: 10px;
